@@ -8,13 +8,12 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <header className="bg-gradient-to-l  from-[#0C2D42] to-[#1D6B9C] sticky top-0 text-white">
-        <Header />
-      </header>
-      <main className="flex-1 bg-[#E6EDEF]">{children}</main>
+      {/* <header className="bg-gradient-to-l  from-[#0C2D42] to-[#1D6B9C] sticky top-0 text-white"> */}
+      <Header />
+      {/* </header> */}
+      <main className=" bg-[#E6EDEF]">{children}</main>
 
-        <Footer />
-      
+      <Footer />
     </>
   );
 }

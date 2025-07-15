@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fa" dir="rtl">
-      <body className="font-vazir min-h-screen flex flex-col ">
+      <body className="font-vazir min-h-screen  ">
      {children}
       </body>
     </html>

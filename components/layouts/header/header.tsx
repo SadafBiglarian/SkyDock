@@ -7,7 +7,7 @@ export default function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <header className=" w-full flex  items-center justify-start md:gap-20 p-2  sm:gap-7">
+    <header className="bg-gradient-to-l  from-[#0C2D42] to-[#1D6B9C] sticky top-0 text-white w-full flex  items-center justify-start md:gap-20 p-2  sm:gap-7">
       <div>
         <Image src="/images/logo.png" alt={"logo"} width={80} height={80} />
       </div>
@@ -20,8 +20,8 @@ export default function Header() {
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           onMouseEnter={() => setIsDropdownOpen(true)}
           className="text-white hover:bg-blue-950
-           focus:ring-2  focus:ring-offset-blue-200
-            rounded-lg md:text-xl sm:text-sm px-5 py-2.5 text-center inline-flex items-center "
+          focus:ring-2  focus:ring-offset-blue-200
+          rounded-lg md:text-xl sm:text-sm px-5 py-2.5 text-center inline-flex items-center "
           type="button"
         >
           محصولات
@@ -108,6 +108,7 @@ export default function Header() {
 //       <button
 //         id="dropdownHoverButton"
 //         data-dropdown-toggle="dropdownHover"
+
 //         data-dropdown-trigger="hover"
 //         className="text-white
 //  hover:bg-blue-950 focus:ring-4
