@@ -1,85 +1,14 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex-1">
-      <section
-        className="home__hero relative overflow-hidden pt-[56px] pb-[262px] 
-sm:pt-[106px] sm:pb-[458px] md:py-[140px] lg:pt-[128px] lg:pb-[146px] 
-lg:max-h-[620px] before:absolute before:content-[''] before:left-0 
-before:top-0 sm:top-0 before:w-full before:h-full before:rotate-y-180
- before:sm:rotate-none before:bg-[url('/images/v6/home/bg-mobile.webp')]
-  md:before:bg-[url('/images/v6/home/bg.webp')] before:bg-center 
-  sm:before:bg-cover md:before:bg-auto before:bg-no-repeat"
-      >
-        <div className="container">
-          <div className="flex flex-col lg:flex-row">
-            <div
-              className="max-w-full sm:max-w-[400px] md:max-w-[460px]
-             lg:max-w-[560px] xl:max-w-[584px] xl:ltr:max-w-[668px]
-              text-start lg:text-start z-20"
-            >
-              <h1
-                className="lg:text-4xl xl:text-5xl text-[32px] 
-                xl:leading-[56px]! text-gray-900 font-semibold mb-3"
-              >
-                زیرساخت یکپارچه ابری
-              </h1>
-              <div
-                className="text-2xl ltr:text-xl lg:text-[36px]
-                 text-[#394460] mb-8"
-              >
-                جهانی امن‌تر، سریع‌تر و دردسترس‌تر
-              </div>
-              <div
-                className="text-sm lg:text-lg text-gray-700 mb-10
-                 sm:mb-14 md:mb-[72px]"
-              >
-                با استفاده از زیرساخت یکپارچه، پایدار، امن و همیشه در دسترس ابر
-                آروان، بدون دغدغه‌های زیرساختی به وب‌سایت و سرویس‌های خود سرعت
-                ببخشید و تجربه‌ی کاربران‌تان را به شکل چشم‌گیری بهبود دهید.
-              </div>
-              <div
-                className="flex gap-x-4 justify-center sm:justify-start
-                 before:content-[''] before:absolute before:w-full 
-                 before:h-[60px] before:bg-white sm:before:hidden 
-                 before:blur-2xl"
-              >
-                <a
-                  href="https://accounts.arvancloud.ir/login?lang=fa"
-                  className="flex items-center justify-center w-44 
-                  lg:w-auto h-12 rounded-lg text-sm lg:text-base
-                   font-semibold py-4 px-6 bg-green-600 text-white
-                    hover:bg-green-800 transition-all z-20"
-                  id=""
-                >
-                  شروع کنید
-                </a>
-                <a
-                  href="https://www.arvancloud.ir/fa/contact/sales"
-                  className="solutions-hero__btn flex items-center 
-                  justify-center w-44 lg:w-auto h-12 py-4 px-6 gap-x-2
-                   rounded-lg text-sm lg:text-base font-semibold
-                    text-green-600 border-[1.5px] border-green-600
-                     hover:bg-green-600 hover:border-green-600
-                      hover:text-white transition-all z-20"
-                  id=""
-                >
-                  تماس با فروش
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+    <main className="flex-1 ">
       <div
-        className="   overflow-hidden  pb-[262px]
-        sm:pb-[458px] md:py-[140px]  lg:pb-[146px]
-        lg:max-h-[620px] before:absolute before:content-[''] before:left-0 before:top-0 
-        sm:top-0 before:w-full before:h-full before:rotate-y-180 before:sm:rotate-none
+        className="relative overflow-hidden   pb-[95px] md:py-[10px]
+ lg:max-h-[620px] before:absolute before:content-[''] before:left-0
+  before:top-0 sm:top-0 before:w-full before:h-full before:rotate-y-180
          before:bg-[url('/images/cloudsUP-mobile.jpg')] md:before:bg-[url('/images/cloudsUP.jpg')] 
          before:bg-center sm:before:bg-cover md:before:bg-auto before:bg-no-repeat"
       >
@@ -88,25 +17,25 @@ before:top-0 sm:top-0 before:w-full before:h-full before:rotate-y-180
             <div
               className="max-w-full sm:max-w-[400px] md:max-w-[460px] 
             lg:max-w-[560px] xl:max-w-[584px] xl:ltr:max-w-[668px] 
-            text-start lg:text-start z-20"
+            text-start lg:text-start z-20 "
             >
-              <p className="lg:text-3xl xl:text-4xl text-[28px] xl:leading-[56px]!">
+              <p className=" font-vazir lg:text-3xl  text-[28px] xl:leading-[56px]!">
                 <span
                   className="
-                text-white text-shadow-lg text-shadow-[#0B2A3D] font-semibold pt-10"
+                text-white text-shadow-lg text-shadow-[#0B2A3D]  "
                 >
                   ذخیره سازی ابری امن و سریع با{" "}
                 </span>
                 <span className=" font-extrabold text-[#0B293C]">SkyDock</span>
               </p>
               <div
-                className="text-2xl ltr:text-xl lg:text-[36px] text-[#0B293C] 
+                className="font-vazir text-2xl ltr:text-xl lg:text-[36px] text-[#0B293C] 
               text-shadow-md text-shadow-white mb-8"
               >
                 همین حالا فضای ابری خود را سفارشی کنید
               </div>
               <div
-                className="flex gap-x-4 justify-center sm:justify-start before:content-[''] 
+                className="flex gap-x-4 justify-start sm:justify-center before:content-[''] 
                 before:absolute before:w-full before:h-[60px]
                before:bg-white sm:before:hidden before:blur-2xl"
               >
@@ -123,7 +52,7 @@ before:top-0 sm:top-0 before:w-full before:h-full before:rotate-y-180
                 </a>
                 <a
                   href=""
-                  className="solutions-hero__btn flex items-center justify-center w-44 
+                  className=" flex items-center justify-center w-44 
                   lg:w-auto h-12 py-4 px-6 gap-x-2 rounded-lg text-sm lg:text-base
                    font-semibold bg-[#154F74] text-white border-[1.5px]
                    border-white hover:bg-white hover:text-[#154F74] hover:border-[#154F74] hover:border-[1.5px]
@@ -138,48 +67,66 @@ before:top-0 sm:top-0 before:w-full before:h-full before:rotate-y-180
         </div>
       </div>
 
-      <div className="flex lg:flex-row">
-        <div className="bg-[#a0b7c6] w-1/2 flex-row py-5 ">
-          <div className="text-center pt-5">
-            <p className="font-extrabold text-4xl">
-              <span className=" text-white text-shadow-lg text-shadow-[#0B2A3D] ">
-                ذخیره سازی ابری امن و سریع با{" "}
-              </span>
-              <span className="text-[#0B293C]">SkyDock</span>
-            </p>
-            <p className="pt-8 font-semibold text-2xl text-[#0B293C] text-shadow-md text-shadow-white ">
-              همین حالا فضای ابری خود را سفارشی کنید
-            </p>
+      <div
+        className="relative overflow-hidden mt-16 pb-[95px] md:py-[10px]
+ lg:max-h-[620px] before:absolute before:content-[''] before:left-0
+  before:top-0 sm:top-0 before:w-full before:h-full before:rotate-y-180
+         before:bg-[url('/images/cloudsMidMobile.jpg')] md:before:bg-[url('/images/cloudsMidWeb1.jpg')] 
+         before:bg-center sm:before:bg-cover md:before:bg-auto before:bg-no-repeat"
+      >
+        <div className="container">
+          <div className="flex flex-col lg:flex-row">
+            <div
+              className="max-w-full sm:max-w-[400px] md:max-w-[460px] 
+            lg:max-w-[560px] xl:max-w-[584px] xl:ltr:max-w-[668px] 
+            text-start lg:ms-[650px] md:ms-[400px] sm:ms-[15px] lg:text-start z-20 "
+            >
+              <p className="font-vazir text-white lg:text-3xl xl:text-3xl text-[25px] xl:leading-[56px]!">
+                ترافیک سایت شما را کند کرده است؟
+              </p>
+              <p className="font-vazir text-[#0B2A3D] text-shadow-lg text-shadow-amber-50 font-semibold lg:text-3xl xl:text-4xl text-[25px] xl:leading-[56px]!">
+                با سرویس CDN ما سرعت را تجربه کنید{" "}
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="w-1/2 relative h-[250px] overflow-hidden  ">
-          <Image
-            src="/images/cloudsUP.png"
-            alt="footer"
-            // width={1000}
-            // height={800}
-            fill
-            // layout="responsive"
-            className=" object-cover"
-          />
         </div>
       </div>
 
-      <div className="flex mt-12 ">
-        <div className="w-1/2 relative h-[150px] overflow-hidden  ">
-          <Image
-            src="/images/cloudsMid.png"
-            alt="footer"
-            // width={1000}
-            // height={800}
-            fill
-            // layout="responsive"
-            className=" object-cover"
-          />
-        </div>
-        <div className="bg-gradient-to-r  from-[#010810] to-[#3F6488] w-1/2 flex-row py-5 font-vazir text-3xl pt-7 ">
-          <p className=" px-5">ترافیک سایت شما را کند کرده است؟</p>
-          <p className=" pr-24 pt-2">با سرویس CDN ما سرعت را تجربه کنید</p>
+      <div
+        className="relative overflow-hidden mt-2 pb-[50px] md:py-[10px]
+ lg:max-h-[620px] before:absolute before:content-[''] before:left-0
+  before:top-0 sm:top-0 before:w-full before:h-full before:rotate-y-180
+         "
+      >
+        <div className="container mb-5 mt-10">
+          <div className="flex-row ">
+            <p className="text-blue-950 font-vazir mb-5 text-3xl">
+              محبوب ترین سرویس ها
+            </p>
+            <div
+              className="flex-row md:flex gap-10 w-fit 
+            text-start lg:text-start "
+            >
+              <Link
+                href={"/"}
+                className="font-vazir w-full text-2xl text-white text-shadow-lg text-shadow-[#178AD0]"
+              >
+                <p> ☁️ سرور ابری</p>
+              </Link>
+              <Link
+                href={"/"}
+                className="font-vazir w-full text-2xl text-white text-shadow-lg text-shadow-[#178AD0]"
+              >
+                <p> 💾 فضای ذخیره سازی </p>
+              </Link>
+              <Link
+                href={""}
+                className=" font-vazir w-full text-2xl text-white text-shadow-lg text-shadow-[#178AD0]"
+              >
+                <p> 🛢 دیتابیس آنلاین </p>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </main>
