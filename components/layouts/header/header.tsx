@@ -74,13 +74,13 @@ export default function Header() {
 
       <div className="inline-flex items-center gap-3 md:text-sm ">
         <Link
-          href={"/"}
+          href="/signin"
           className="bg-white h-8 w-16 flex justify-center-safe rounded-2xl text-black "
         >
           <p className="py-1.5">ورود</p>
         </Link>
         <Link
-          href={"/"}
+          href="/signup"
           className="bg-[#154F74] h-8 w-16 flex justify-center-safe rounded-2xl text-white"
         >
           <p className="py-1.5">ثبت نام</p>
