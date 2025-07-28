@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import Header from "../layouts/header/header";
 import Footer from "../layouts/footer/footer";
 
@@ -54,7 +53,7 @@ export default function Home() {
                      transition-all z-20"
                     id=""
                   >
-                    شروع  SkyDock
+                    شروع SkyDock
                   </a>
                   <a
                     href=""
