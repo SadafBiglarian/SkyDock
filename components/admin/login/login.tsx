@@ -2,7 +2,7 @@
 "use client";
 import Image from "next/image";
 ///
-export default function SigninForm() {
+export default function Login() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
   }
@@ -11,7 +11,7 @@ export default function SigninForm() {
       className="container min-h-screen bg-white flex flex-col
          lg:flex-row-reverse items-center justify-center gap-4"
     >
-      <Image src="/images/login.jpg" alt="" width={400} height={700} />
+      <Image src="/images/AdminLogin.jpg" alt="" width={400} height={700} />
 
       <div className="flex items-center justify-center">
         <form
@@ -52,10 +52,6 @@ export default function SigninForm() {
           </label>
 
           
-
-          <a href="/signup" title="اینجا کلیک کنید" className="text-gray-500 ps-3">
-            آیا حساب کاربری ندارید؟
-          </a>
           <a href="/password" title="اینجا کلیک کنید" className="text-gray-500 ps-3">
             فراموشی رمز عبور   
           </a>
@@ -79,7 +75,7 @@ export default function SigninForm() {
 "use client";
 import Image from "next/image";
 ///
-export default function SigninForm() {
+export default function Login() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
   }
@@ -88,7 +84,7 @@ export default function SigninForm() {
       className="container min-h-screen bg-white flex flex-col
          lg:flex-row-reverse items-center justify-center gap-4"
     >
-      <Image src="/images/login.jpg" alt="" width={400} height={700} />
+      <Image src="/images/AdminLogin.jpg" alt="" width={400} height={700} />
 
       <div className="flex items-center justify-center">
         <form
@@ -129,10 +125,6 @@ export default function SigninForm() {
           </label>
 
           
-
-          <a href="/signup" title="اینجا کلیک کنید" className="text-gray-500 ps-3">
-            آیا حساب کاربری ندارید؟
-          </a>
           <a href="/password" title="اینجا کلیک کنید" className="text-gray-500 ps-3">
             فراموشی رمز عبور   
           </a>
